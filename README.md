@@ -17,6 +17,7 @@ You are a cashier at a grocery store. Write a Python program to calculate the to
 7. Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for the total cost).
 
 Example output:
+
 ```
 Price of item: $2.99
 Quantity: 3
@@ -26,7 +27,6 @@ Subtotal: $8.97
 Tax: $0.67
 Total: $9.64
 ```
-
 
 ## Bonus, create a new python file and do the following:
 
