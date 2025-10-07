@@ -7,6 +7,9 @@ total= subtotal + tax
 print("Prie of item: $", price)
 print("Quantity:", quantity)
 print("Tax rate:", tax_rate*100,"%")
+
+print("")
+
 print("Subtotal: $", subtotal)
-print("Tax: $", tax)
-print("Total: $", total)
+print(f"Tax: ${tax:.2f}")
+print(f"Total: ${total:.2f}")
