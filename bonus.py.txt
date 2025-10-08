@@ -1,0 +1,14 @@
+language_speak:str = "I can speak more than two languages , " \
+"I can speak Arabic , English and Korean"
+languages:str = "I can speak Arabic , English and Korean"
+letter = "I"
+word = "can"
+kor = "Korean"
+ch = "chinese"
+print(f"The length of th sentence is: {len(language_speak)}")
+print(f"The index of the I is: {language_speak.find(letter)}")
+print(f"The number of times the word {languages} repeats is:{language_speak.find(word)}")
+print(f"The sentence I write in uppercase letter is: {language_speak.upper()}")
+print(f"The sentence I write in lowercase letter is: {language_speak.lower()}")
+print(f"The orignal word is {languages} /nreplaced with: {languages.replace(kor,ch)}")
+print(f"The last character of the sentence is: {language_speak[-1]}")
